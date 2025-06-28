@@ -1,0 +1,36 @@
+2025-06-27 14:27:12.818 [info] Extension host with pid 1211 started
+2025-06-27 14:27:12.818 [error] Error: EEXIST: file already exists, open '/home/dhruv_patil284/.codeoss/data/User/workspaceStorage/51d2e9d5/vscode.lock'
+2025-06-27 14:27:12.837 [info] Lock '/home/dhruv_patil284/.codeoss/data/User/workspaceStorage/51d2e9d5/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-06-27 14:27:12.838 [info] Lock '/home/dhruv_patil284/.codeoss/data/User/workspaceStorage/51d2e9d5/vscode.lock': The pid 1469 appears to be gone.
+2025-06-27 14:27:12.839 [info] Lock '/home/dhruv_patil284/.codeoss/data/User/workspaceStorage/51d2e9d5/vscode.lock': Deleting a stale lock.
+2025-06-27 14:27:12.847 [info] Lock '/home/dhruv_patil284/.codeoss/data/User/workspaceStorage/51d2e9d5/vscode.lock': Lock acquired.
+2025-06-27 14:27:12.944 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-27 14:27:12.945 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-27 14:27:12.946 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-27 14:27:12.946 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-27 14:27:12.947 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2025-06-27 14:27:13.711 [error] Error: spawn /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-06-27 14:27:13.959 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-27 14:27:14.072 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-27 14:27:14.072 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-27 14:27:18.774 [info] Eager extensions activated
+2025-06-27 14:27:18.775 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-06-27 14:27:18.775 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2025-06-27 14:27:18.776 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2025-06-27 14:27:18.777 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-27 14:27:18.777 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-27 14:27:21.402 [error] CodeExpectedError: Unable to write into user settings because the file has unsaved changes. Please save the user settings file first and then try again.
+    at Sft.z (https://970-cs-4c43380d-fe76-4983-b149-611a7ef95c9f.cs-asia-southeast1-ajrg.cloudshell.dev/cde-df155267ce1f1986a0bd0b9eb20e060d1fe90875/static/out/vs/code/browser/workbench/workbench.js:3255:6793)
+    at Sft.F (https://970-cs-4c43380d-fe76-4983-b149-611a7ef95c9f.cs-asia-southeast1-ajrg.cloudshell.dev/cde-df155267ce1f1986a0bd0b9eb20e060d1fe90875/static/out/vs/code/browser/workbench/workbench.js:3255:9955)
+    at Sft.o (https://970-cs-4c43380d-fe76-4983-b149-611a7ef95c9f.cs-asia-southeast1-ajrg.cloudshell.dev/cde-df155267ce1f1986a0bd0b9eb20e060d1fe90875/static/out/vs/code/browser/workbench/workbench.js:3255:3874)
+    at Object.factory (https://970-cs-4c43380d-fe76-4983-b149-611a7ef95c9f.cs-asia-southeast1-ajrg.cloudshell.dev/cde-df155267ce1f1986a0bd0b9eb20e060d1fe90875/static/out/vs/code/browser/workbench/workbench.js:3255:3774)
+    at Zw.j (https://970-cs-4c43380d-fe76-4983-b149-611a7ef95c9f.cs-asia-southeast1-ajrg.cloudshell.dev/cde-df155267ce1f1986a0bd0b9eb20e060d1fe90875/static/out/vs/code/browser/workbench/workbench.js:30:107363)
+    at https://970-cs-4c43380d-fe76-4983-b149-611a7ef95c9f.cs-asia-southeast1-ajrg.cloudshell.dev/cde-df155267ce1f1986a0bd0b9eb20e060d1fe90875/static/out/vs/code/browser/workbench/workbench.js:30:107275
+    at new Promise (<anonymous>)
+    at Zw.queue (https://970-cs-4c43380d-fe76-4983-b149-611a7ef95c9f.cs-asia-southeast1-ajrg.cloudshell.dev/cde-df155267ce1f1986a0bd0b9eb20e060d1fe90875/static/out/vs/code/browser/workbench/workbench.js:30:107217)
+    at Sft.writeConfiguration (https://970-cs-4c43380d-fe76-4983-b149-611a7ef95c9f.cs-asia-southeast1-ajrg.cloudshell.dev/cde-df155267ce1f1986a0bd0b9eb20e060d1fe90875/static/out/vs/code/browser/workbench/workbench.js:3255:3743)
+    at eUs.Hb (https://970-cs-4c43380d-fe76-4983-b149-611a7ef95c9f.cs-asia-southeast1-ajrg.cloudshell.dev/cde-df155267ce1f1986a0bd0b9eb20e060d1fe90875/static/out/vs/code/browser/workbench/workbench.js:3255:42635)
+2025-06-27 14:27:23.381 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'

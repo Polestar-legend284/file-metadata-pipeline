@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>File Metadata</title></head>
+<body>
+  <h1>Processed Files</h1>
+  <table border="1">
+    <tr><th>Name</th><th>Size</th><th>Type</th><th>Time</th></tr>
+    {% for n,s,t,ts in files %}
+    <tr><td>{{n}}</td><td>{{s}}</td><td>{{t}}</td><td>{{ts}}</td></tr>
+    {% endfor %}
+  </table>
+</body>
+</html>

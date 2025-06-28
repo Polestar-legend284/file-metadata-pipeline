@@ -1,0 +1,17 @@
+2025-06-27 08:46:56.525 [info] 
+
+
+
+
+2025-06-27 08:46:56.541 [info] Extension host agent started.
+2025-06-27 08:46:56.558 [info] Started initializing default profile extensions in extensions installation folder. file:///home/dhruv_patil284/.codeoss/extensions
+2025-06-27 08:46:56.580 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/dhruv_patil284/.codeoss/extensions
+2025-06-27 08:47:01.056 [info] [127.0.0.1][5794f491][ExtensionHostConnection] New connection established.
+2025-06-27 08:47:01.057 [info] [127.0.0.1][56f9be97][ManagementConnection] New connection established.
+2025-06-27 08:47:03.249 [info] [127.0.0.1][5794f491][ExtensionHostConnection] <1315> Launched Extension Host Process.
+2025-06-27 08:50:03.286 [info] [127.0.0.1][56f9be97][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-06-27 08:50:03.491 [info] [127.0.0.1][5794f491][ExtensionHostConnection] <1315> Extension Host Process exited with code: 0, signal: null.
+2025-06-27 08:50:26.592 [info] [127.0.0.1][48a8754b][ManagementConnection] New connection established.
+2025-06-27 08:50:26.673 [info] [127.0.0.1][34a6dd08][ExtensionHostConnection] New connection established.
+2025-06-27 08:50:26.678 [info] [127.0.0.1][34a6dd08][ExtensionHostConnection] <1427> Launched Extension Host Process.
+2025-06-27 09:25:26.832 [info] [127.0.0.1][48a8754b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
