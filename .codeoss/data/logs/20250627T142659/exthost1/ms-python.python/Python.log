@@ -1,5 +1,0 @@
-2025-06-27 14:27:13.791 [warning] Dir "/home/dhruv_patil284/.pixi/envs" is not watchable (directory does not exist)
-2025-06-27 14:27:13.988 [info] Python interpreter path: /bin/python
-2025-06-27 14:27:14.257 [info] > pyenv which python
-2025-06-27 14:27:14.257 [info] cwd: .
-2025-06-27 14:27:17.239 [info] Starting Jedi language server for dhruv_patil284.
